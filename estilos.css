@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Esto centra los elementos del navbar horizontalmente */
+    display: flex; /* Cambiamos a flexbox para centrar los elementos */
+    justify-content: center; /* Centramos los elementos horizontalmente */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Espacio entre los elementos del navbar */
+}
+
+
+.jumbotron{
+    height: 600px;
+    background-image: url(img/desk-593327_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 100px;
+    color: rgb(0, 0, 255);
+    text-shadow: 0 0 10px #000;
+}
+
+.parrafo-home{
+    color: black ;
+    font-size: 18px;
+    border: solid 3px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    font-weight: bolder;
+    text-shadow: 0 0 5px #000;
+    margin-bottom: 0;
+}
+
+.tan{
+    background-color: rgba(231, 229, 229, 0.986);
+    border-radius: 5px;
+}
+
+.imgan{
+    margin-top: 20px;
+}
+
+.imagenes-sn{
+    height: auto;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.titulo-an{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.con{
+    margin-top: 40px;
+    
+}
+
+.redes a i{
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: rgb(123, 37, 202) !important;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgauris{
+    padding: 10px;
+}
+
+.fondo{
+    background-image: url(img/keyboard-70506_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#titulo-servicio{
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 500;
+}
+
+#parrafo-servicio{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0 0 10px #000;
+    text-decoration: overline;
+}
