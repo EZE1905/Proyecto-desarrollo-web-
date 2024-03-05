@@ -81,6 +81,12 @@ h2{
     font-size: 25px;
     letter-spacing: 5px;
     color: rgb(123, 37, 202) !important;
+    transition: 0.7s;
+}
+
+.redes a i:hover{
+    transform: scale(1);
+    color: rgb(255, 255, 255) !important;
 }
 
 .tarjetas{
@@ -88,8 +94,19 @@ h2{
     justify-content: space-evenly;
 }
 
+.agrandan:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.imgauris:hover{
+    transform: scale(0.95);
+    transition: all 1s;
+}
+
 .imgauris{
     padding: 10px;
+    margin: 10px;
 }
 
 .fondo{
