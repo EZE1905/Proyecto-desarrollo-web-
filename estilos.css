@@ -1,133 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar-nav {
-    margin: 0 auto; /* Esto centra los elementos del navbar horizontalmente */
-    display: flex; /* Cambiamos a flexbox para centrar los elementos */
-    justify-content: center; /* Centramos los elementos horizontalmente */
+  margin: 0 auto; /* Esto centra los elementos del navbar horizontalmente */
+  display: flex; /* Cambiamos a flexbox para centrar los elementos */
+  justify-content: center; /* Centramos los elementos horizontalmente */
 }
 
 .navbar-nav .nav-item {
-    margin: 0 10px; /* Espacio entre los elementos del navbar */
+  margin: 0 10px; /* Espacio entre los elementos del navbar */
 }
 
-
-.jumbotron{
-    height: 600px;
-    background-image: url(img/desk-593327_1280.jpg);
-    background-position: center;
-    background-size: cover;
+.jumbotron {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/desk-593327_1280.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-h1{
-    padding-top: 100px;
-    color: rgb(0, 0, 255);
-    text-shadow: 0 0 10px #000;
+h1 {
+  padding-top: 200px;
+  color: rgb(0, 68, 255);
+  text-shadow: 0 0 10px #000;
 }
 
-.parrafo-home{
-    color: black ;
-    font-size: 18px;
-    border: solid 3px;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.692);
+.parrafo-home {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
-h2{
-    text-align: center;
-    color: #fff;
-    padding: 15px;
-    font-weight: bolder;
-    text-shadow: 0 0 5px #000;
-    margin-bottom: 0;
+.btn {
+  background: #485563; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.tan{
-    background-color: rgba(231, 229, 229, 0.986);
-    border-radius: 5px;
+h2 {
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  font-weight: bolder;
+  text-shadow: 0 0 5px #000;
+  margin-bottom: 0;
 }
 
-.imgan{
-    margin-top: 20px;
+.nosotros {
+  background-image: linear-gradient(to right bottom, #1600ae, #3d00b3, #5600b7, #6b00bc, #7e05c0, #7e11c2, #7f19c5, #7f1fc7, #6c26c7, #562cc7, #3a30c6, #0033c4);
+  color: #dbd4d4;
+  font-weight: bold;
 }
 
-.imagenes-sn{
-    height: auto;
-    width: auto;
-    background-position: center;
-    background-size: cover;
-    display: flex;
+.tan {
+  background-color: rgba(231, 229, 229, 0.986);
+  border-radius: 5px;
 }
 
-.titulo-an{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.imgan {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.mapa{
-    display: flex;
-    justify-content: center;
+.titulo-an {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.con{
-    margin-top: 40px;
-    
+.mapa {
+  display: flex;
+  justify-content: center;
 }
 
-.redes a i{
-    font-size: 25px;
-    letter-spacing: 5px;
-    color: rgb(123, 37, 202) !important;
-    transition: 0.7s;
+.con {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.redes a i:hover{
-    transform: scale(1);
-    color: rgb(255, 255, 255) !important;
+.redes a i {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: blueviolet !important;
+  transition: 0.7s;
 }
 
-.tarjetas{
-    display: flex;
-    justify-content: space-evenly;
+.redes a i:hover {
+  transform: scale(1);
+  color: rgb(37, 150, 202) !important;
 }
 
-.agrandan:hover{
-    transform: scale(1.1);
-    transition: 1s;
+.tarjetas {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.imgauris:hover{
-    transform: scale(0.95);
-    transition: all 1s;
+.agrandan {
+  transition: 1s;
 }
 
-.imgauris{
-    padding: 10px;
-    margin: 10px;
+.agrandan:hover {
+  transform: scale(1.1);
 }
 
-.fondo{
-    background-image: url(img/keyboard-70506_1280.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    opacity: 0.8;
+.imgauris:hover {
+  transform: scale(0.95);
+  transition: all 1s;
 }
 
-#titulo-servicio{
-    font-size: 40px;
-    color: white;
-    text-shadow: 0 0 10px black;
-    font-weight: 500;
+.imgauris {
+  padding: 10px;
+  margin: 10px;
+  transition: 1s;
 }
 
-#parrafo-servicio{
-    font-size: 20px;
-    color: white;
-    font-weight: bolder;
-    text-shadow: 0 0 10px #000;
-    text-decoration: overline;
+.card-title {
+  font-size: 23px;
 }
+
+.fondo {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(img/keyboard-70506_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  opacity: 0.8;
+}
+
+#titulo-servicio {
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-weight: 500;
+}
+
+#parrafo-servicio {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0 0 10px #000;
+  text-decoration: overline;
+}/*# sourceMappingURL=estilos.css.map */
